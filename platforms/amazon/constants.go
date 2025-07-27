@@ -86,3 +86,16 @@ var CountriesInfo = []CountryInfo{
 	{Country: "泰国", CurrencySymbol: "฿", Language: "泰语", LanguageCode: "TH", WhisperLanguageCode: "th", DifyLanguage: "泰语", TTSVoiceName: "th-TH-NiwatNeural"},
 	{Country: "越南", CurrencySymbol: "₫", Language: "越南语", LanguageCode: "VIE", WhisperLanguageCode: "vi", DifyLanguage: "越南语", TTSVoiceName: "vi-VN-NamMinhNeural"},
 }
+
+// 图片搜索相关URL
+const (
+	AmazonShopLookURL            = "https://www.amazon.com/shopthelook"
+	AmazonStyleSnapUploadURL     = "https://www.amazon.com/stylesnap/upload"
+	AmazonProductDetailPrefixURL = "https://www.amazon.com/dp/"
+)
+
+// 图片搜索配置
+const (
+	MaxRetries         = 3
+	ImageSearchTimeout = 30
+)
